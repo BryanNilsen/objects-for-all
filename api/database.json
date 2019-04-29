@@ -29,6 +29,26 @@
       "id": 6,
       "name": "Ribbon",
       "categoryId": 3
+    },
+    {
+      "name": "paper balls",
+      "categoryId": 2,
+      "id": 7
+    },
+    {
+      "name": "Robby's Hat",
+      "categoryId": 2,
+      "id": 8
+    },
+    {
+      "name": "dumb sticker",
+      "categoryId": 4,
+      "id": 9
+    },
+    {
+      "name": "bits and pieces",
+      "categoryId": 7,
+      "id": 10
     }
   ],
   "category": [
@@ -55,6 +75,18 @@
     {
       "name": "Colored Pencils",
       "id": 6
+    },
+    {
+      "name": "random",
+      "id": 7
+    },
+    {
+      "name": "ROBBYS",
+      "id": 8
+    },
+    {
+      "name": "Jake",
+      "id": 9
     }
   ],
   "order": [

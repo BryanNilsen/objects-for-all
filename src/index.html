@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>One Object For All and All For One</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <h1>What I found in the Junk Drawer</h1>
     <button id="btn-getJunk">Get Junk</button>
     <button id="btn-getCategories">Get Categories</button>
@@ -16,15 +15,30 @@
 
     <h2>More Junk Categories</h2>
     <fieldset>
-        <label for="junk__category">Name:</label>
-        <input id="junk__category" class="junk__category" type="text" autofocus />
+      <label for="junk__category">Name:</label>
+      <input id="junk__category" class="junk__category" type="text" autofocus />
     </fieldset>
 
-    <button class="btn category__save" id="btn-saveCategory">Save Junk Category</button>
+    <button class="btn category__save" id="btn-saveCategory">
+      Save Junk Category
+    </button>
 
+    <!-- ADD JUNK SECTION -->
+    <section id="add_junk_section">
+      <h1>Add Junk</h1>
+      <fieldset>
+        <label for="add__junk">Name of Junk to Add</label>
+        <input type="text" name="add__junk__text" id="add__junk__text" />
+        <label for="select__junk__category">Select Category</label>
+        <select name="select__junk__category" id="select__junk__category">
+        </select>
+        <button id="add__junk__btn">ADD JUNK</button>
+      </fieldset>
+    </section>
+
+    <script src="scripts/dbcalls.js"></script>
     <script src="scripts/dom-category.js"></script>
     <script src="scripts/dom-junk.js"></script>
     <script src="scripts/main.js"></script>
-    <script src="scripts/dbcalls.js"></script>
-</body>
+  </body>
 </html>
